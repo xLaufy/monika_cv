@@ -104,7 +104,7 @@ html {
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  background-color: #ebecf2;
+  background-color: white;
 }
 
 nav {
@@ -123,20 +123,45 @@ nav a:hover {
 }
 
 header {
-  color: #fff;
+  color: white;
 }
 header .fa-chevron-down {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 190px;
+  bottom: 600px;
   font-size: 30px;
-  color: #fff;
+  color: black;
 }
 
+.logo .carousel-indicators {
+  bottom: 385px;
+  width: 30%;
+  left: 21%;
+}
+.logo .carousel-indicators button {
+  background-color: black;
+}
 .logo .carousel-item {
   position: relative;
-  padding-top: 20px;
   height: 400px;
+}
+
+.animation {
+  margin-top: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
