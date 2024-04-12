@@ -18,4 +18,5 @@ $(".team-carousel").slick({
 			settings: { slidesToShow: 2 },
 		},
 	],
+	
 });
